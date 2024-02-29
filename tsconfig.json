@@ -1,0 +1,8 @@
+{
+    "extends": "@vertigis/workflow-sdk/config/tsconfig.json",
+    "compilerOptions": {
+        "target": "ES2018",
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "tests", "**/__mocks__/*", "**/__tests__/*"]
+}
