@@ -2,11 +2,11 @@
 
 
 
-<div style="text-align: center; padding:48px 0;">
-  <img height="150px" src="./docs/img/logo-tools-circle.png" width="150px" alt="logo" />
+<div align="center">
+  <img src="./docs/img/logo-tools-circle.png" width="150px" height="150px" alt="logo" />
 </div>  
-
-
+  
+  
 
 Welcome, fellow no-code and GIS  enthusiasts! The **VertiGIS Workflow Vanguard Tools** project serves as a free extension for the lovely “VertiGIS Studio Workflow” system.  We’ve crafted custom activities that go beyond the standard offerings, seamlessly integrates into your existing workflow environment.
 
