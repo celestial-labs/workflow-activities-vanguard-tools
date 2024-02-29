@@ -1,10 +1,16 @@
 {
-    "name": "vertigis-workflow-project",
-    "private": true,
+    "name": "workflow-activities-vanguard-tools",
     "version": "1.0.0",
-    "description": "",
-    "license": "MIT",
+    "description": "The VertiGIS Workflow Vanguard Tools is a free extension project for the VertiGIS Studio Workflow system. It introduces custom activities that enhance the system's ability to handle data.",
+    "license": "Apache-2.0",
     "author": "VertiGIS",
+    "homepage": "https://github.com/celestial-labs/workflow-activities-vanguard-tools",
+    "keywords": [
+        "VertiGIS",
+        "Workflow",
+        "ArcGIS",
+        "GIS"
+    ],
     "scripts": {
         "build": "vertigis-workflow-sdk build",
         "generate": "vertigis-workflow-sdk generate",
