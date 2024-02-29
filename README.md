@@ -3,7 +3,7 @@
 
 
 <div style="text-align: center; padding:48px 0;">
-  <img height="150" src="./docs/img/logo-tools-circle.png" width="150" alt="logo"/>
+  <img height="150px" src="./docs/img/logo-tools-circle.png" width="150px" alt="logo" />
 </div>  
 
 
@@ -12,7 +12,7 @@ Welcome, fellow no-code and GIS  enthusiasts! The **VertiGIS Workflow Vanguard T
 
 ### What’s in?
 
-Data Sorcery: Ever wished you could manipulate data like a wizard? Within this project, we introduce several custom activities that enhance workflow to handle with data:
+Data Sorcery: Ever wished you could manipulate data like a wizard [[Demo](https://apps.vertigisstudio.com/web/?app=a1e21fa1a17d47f39e04503fb1c49f61)]? Within this project, we introduce several custom activities that enhance workflow to handle with data:
 
 1. [**Get Data**](docs/GetData.md): This activity retrieves data from nested arrays, objects, or collections using "dot" notation. It allows you to access specific keys within deep data structures: `foo.bar.0.baz`.
 
@@ -23,6 +23,12 @@ Data Sorcery: Ever wished you could manipulate data like a wizard? Within this p
 4. **Filter Data**: The "Filter Data" activity lets you narrow down your dataset based on specific criteria. Whether you're dealing with arrays or objects, this activity ensures data filtering with only one node.
 
 All these activities support **wildcards** using asterisks. You can target any key within an collection: `foo.*.id`
+
+### Register the Activity Pack
+
+```https://unpkg.com/workflow-activities-vanguard-tools/build/activitypack.json```
+
+read [**Usage**](docs/Usage.md) for more information
 
 ---
 
