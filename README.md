@@ -1,16 +1,21 @@
 # VertiGIS Workflow Vanguard Tools  
 
 
-
 <div align="center">
   <img src="./docs/img/logo-tools-circle.png" width="150px" height="150px" alt="logo" />
-</div>  
-  
-  
+</div>
 
 Welcome, fellow no-code and GIS  enthusiasts! The **VertiGIS Workflow Vanguard Tools** project serves as a free extension for the lovely “VertiGIS Studio Workflow” system.  We’ve crafted custom activities that go beyond the standard offerings, seamlessly integrates into your existing workflow environment.
 
-### What’s in?
+## Register the Activity Pack
+
+```https://unpkg.com/workflow-activities-vanguard-tools/build/activitypack.json```
+
+read [**Usage**](docs/Usage.md) for more information
+
+## What’s in?
+
+### Data
 
 Data Sorcery: Ever wished you could manipulate data like a wizard [[Demo](https://apps.vertigisstudio.com/web/?app=a1e21fa1a17d47f39e04503fb1c49f61)]? Within this project, we introduce several custom activities that enhance workflow to handle with data:
 
@@ -24,11 +29,9 @@ Data Sorcery: Ever wished you could manipulate data like a wizard [[Demo](https:
 
 All these activities support **wildcards** using asterisks. You can target any key within an collection: `foo.*.id`
 
-### Register the Activity Pack
+### Collection
 
-```https://unpkg.com/workflow-activities-vanguard-tools/build/activitypack.json```
-
-read [**Usage**](docs/Usage.md) for more information
+*   **Uniq**: Creates a duplicate-free version of the array, using === to test object equality.
 
 ---
 
