@@ -1,6 +1,6 @@
 {
     "name": "workflow-activities-vanguard-tools",
-    "version": "1.0.0-alpha.2",
+    "version": "1.0.0-alpha.3",
     "description": "The VertiGIS Workflow Vanguard Tools is a free extension project for the VertiGIS Studio Workflow system. It introduces custom activities that enhance the system's ability to handle data.",
     "license": "Apache-2.0",
     "author": "VertiGIS",
