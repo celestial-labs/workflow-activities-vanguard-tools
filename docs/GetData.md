@@ -1,6 +1,6 @@
 # `GetData` Documentation
 
-This document provides a overview of the `GetData` activity, which is designed for retrieving structured data based on specific queries.
+This document provides a overview of the `GetData` activity, which is designed for retrieving structured data based on specific queries. The software relies on the [wild-wild-path](https://github.com/ehmicky/wild-wild-path) package.
 
 ## Overview
 
